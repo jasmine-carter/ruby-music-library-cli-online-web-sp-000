@@ -43,7 +43,7 @@ class MusicLibraryController
       input = ''
       puts "Please enter the name of an artist:"
       input = gets.chomp
-      Artist.all.select |artist| artist.name == input
+      Artist.all.select do |artist| artist.name == input
         puts artist.songs
     end
 
