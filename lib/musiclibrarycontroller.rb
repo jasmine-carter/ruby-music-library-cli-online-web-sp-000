@@ -43,7 +43,7 @@ class MusicLibraryController
     puts "Please enter the name of an artist:"
       input = gets
       Artist.all.each do |artist| artist.name == input
-        puts artist.songs
+        artist.songs
       end
     end
 
