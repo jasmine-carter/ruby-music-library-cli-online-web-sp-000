@@ -40,7 +40,9 @@ class MusicLibraryController
     end
 
     def list_songs_by_artist
-      Artist.all
+      puts "Please enter an artist name."
+      Artist.all.each do |artist| artist.songs
+        puts. artist.songs
     end
 
 end
