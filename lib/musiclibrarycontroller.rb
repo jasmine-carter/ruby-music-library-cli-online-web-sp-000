@@ -45,7 +45,6 @@ class MusicLibraryController
       input = gets.chomp
       Artist.all.select |artist| artist.name == input
         puts artist.songs
-      end
     end
 
 end
