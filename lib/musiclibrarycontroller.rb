@@ -23,7 +23,8 @@ class MusicLibraryController
         list_songs
       when 'list_artists'
         list_artists
-      when
+      when 'list_genres'
+        list_artists
     end
   end
 
