@@ -65,7 +65,7 @@ class MusicLibraryController
       puts "Which song number would you like to play?"
       list_songs
       input = gets
-      if input ==
+      if input == list_songs
         puts "Playing #{song.name} by #{song.artist.name}"
       end
     end
